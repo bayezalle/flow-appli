@@ -1,6 +1,6 @@
 import React from 'react'
 // import './home.css'
-import ad1 from '../../images/legg.jpg'
+// import ad1 from '../../images/legg.jpg'
 // import ad2 from '../../images/ad2.png'
 // import ad3 from '../../images/ad3.png'
 import c1 from '../../images/category/c1.jpg'
@@ -19,6 +19,7 @@ import test2 from '../../images/testimonial/member-03.jpg'
 import test3 from '../../images/testimonial/member-02.jpg'
 // import Carousel from './Carousel'
 import Carousell from './Carousell'
+import Banner from './Banner'  
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
             </div>
           </div>
         </div> */}
+          <Banner />
         <section>
         <div class="container-fluid big-padding pt-5 category">
         <div class="container-xl">
