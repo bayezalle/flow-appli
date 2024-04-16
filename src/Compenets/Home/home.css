@@ -1,0 +1,9 @@
+.bannier{
+    width: 100%;
+    background: url('../../images/legg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    /* background-position: center; */
+}
+
