@@ -49,6 +49,10 @@ function Carousell() {
       };
   return (
     <div className="slider-container py-5">
+		<div className="fw-bolder text-center py-5">
+			<h4 className="text-success">OUR SHOP</h4>
+			<h2 className="text-dark">Popular Products</h2>
+		</div>
       <Slider {...settings}>
         <div className="p-2 text-center">
             <div class="p-4 card">
@@ -57,18 +61,21 @@ function Carousell() {
 					<img src={img1} class="img-fluid" alt=""/>									
 				</div>
 				<div class="thumb-content">
-					<h4>Fraises</h4>									
+					<h4>Fraises</h4>	
+					<p>32/kg</p>								
 					<div class="star-rating">
 						<ul class="list-inline">
-							<li class="list-inline-item"><FaStarHalfAlt color="warning"/></li>
-							<li class="list-inline-item"><FaStarHalfAlt /></li>
-							<li class="list-inline-item"><FaStarHalfAlt /></li>
-							<li class="list-inline-item"><FaStarHalfAlt /></li>
-							<li class="list-inline-item"><CiStar color=""/></li>
+							<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+							<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+							<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+							<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+							<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 					    </ul>
 					</div>
-					<p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
-					<a href="#" class="btn btn-yelow rounded">Add to Cart</a>
+					<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 				</div>						
 			</div>
         </div>
@@ -79,20 +86,23 @@ function Carousell() {
 				<img src={img2} class="img-fluid" alt="Headphone"/>
 			</div>
 			<div class="thumb-content">
-				<h4> Headphone</h4>									
+				<h4> Purple mangosteen</h4>		
+				<p>32/kg</p>							
 				<div class="star-rating">
 				    <ul class="list-inline">
-						<li class="list-inline-item"><FaStarHalfAlt /></li>
-						<li class="list-inline-item"><FaStarHalfAlt /></li>
-						<li class="list-inline-item"><FaStarHalfAlt /></li>
-						<li class="list-inline-item"><FaStarHalfAlt /></li>
-						<li class="list-inline-item"><CiStar /></li>
+						<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+						<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+						<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+						<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+						<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 					</ul>
 				</div>
-				<p class="item-price"><strike>$25.00</strike> <b>$23.99</b></p>
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+				<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 			</div>						
-		</div>
+		</div>	
         </div>
         <div className="p-2 text-center">
         <div class="card p-4">
@@ -101,18 +111,21 @@ function Carousell() {
 									<img src={img3} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Frech Carotte</h4>	
+									<p>32/kg</p>								
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+									<p class="item-price text-success fw-bold">$369.00</p>
+									<a href="#" class="btn btn-outline-success rounded">Add</a>
+								</div>
 								</div>						
 							</div>
         </div>
@@ -123,18 +136,21 @@ function Carousell() {
 									<img src={img4} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Carotte</h4>	
+									<p>32/kg</p>								
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 								</div>						
 							</div>
         </div>
@@ -145,18 +161,21 @@ function Carousell() {
 									<img src={img5} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Carotte</h4>	
+									<p>32/kg</p>								
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 								</div>						
 							</div>
         </div>
@@ -167,18 +186,21 @@ function Carousell() {
 									<img src={img6} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Carotte</h4>	
+									<p>32/kg</p>								
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 								</div>						
 							</div>
         </div>
@@ -189,18 +211,21 @@ function Carousell() {
 									<img src={img7} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Carotte</h4>	
+									<p>32/kg</p>								
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 								</div>						
 							</div>
         </div>
@@ -211,18 +236,21 @@ function Carousell() {
 									<img src={img8} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Carotte</h4>	
+									<p>32/kg</p>								
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 								</div>						
 							</div>
         </div>
@@ -233,18 +261,21 @@ function Carousell() {
 									<img src={img9} class="img-fluid" alt="Macbook"/>
 								</div>
 								<div class="thumb-content">
-									<h4>Carotte</h4>									
+									<h4>Carotte</h4>		
+									<p>32/kg</p>							
 									<div class="star-rating">
 										<ul class="list-inline">
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><FaStarHalfAlt /></li>
-											<li class="list-inline-item"><CiStar /></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
+											<li class="list-inline-item"><FaStarHalfAlt color="orange"/></li>
 										</ul>
 									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
+									<div className="d-flex justify-content-between  py-3">
+						<p class="item-price text-success fw-bold">$369.00</p>
+						<a href="#" class="btn btn-outline-success rounded">Add</a>
+					</div>
 								</div>						
 							</div>
         </div>

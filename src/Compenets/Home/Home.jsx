@@ -71,7 +71,7 @@ const Home = () => {
         </div>
       </div>
       </section>
-     <section className='bg-light'>
+     <section className=''>
      <div className="container">
         <Carousell />
       </div>
@@ -163,9 +163,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      {/* </section>
-      <Carousel />
-      <section> */}
+        
       <div id="testimonial" class="service bg-light container-fluid px-4 mt-5 py-5">
             <div class="container">
                 <div class="section-title row mb-3">
@@ -205,7 +203,6 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    
                     <div class="col-lg-4 col-md-6 mb-4">
                       <div class="serv-cove shadow-md rounded bg-white p-3">
                         <div class="prf row mb-3">
@@ -222,7 +219,6 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-
                 </div>
              </div>
         </div>

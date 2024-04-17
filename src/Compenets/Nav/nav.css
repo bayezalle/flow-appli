@@ -2,24 +2,31 @@
     width: 120px !important;
 }
 .flow-input{
-    width: 320px !important;
+    width: 450px !important;
     background: #d9d9d947 !important;
     background-color: rgba(217, 217, 217, 0.28);
-    border: none;
-    border-top-color: currentcolor;
+    /* border: none; */
+    /* border-top-color: currentcolor;
     border-right-color: currentcolor;
     border-bottom-color: currentcolor;
-    border-left-color: currentcolor;
-    border-radius: 10px !important;
+    border-left-color: currentcolor; */
+    border-radius: 50px !important;
   
   
 }
 
-.header{
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* justify-items:center; */
-     /* max-width: 100%; */
+.a{
+    text-decoration: none;
 
+}
+.a:hover{
+    color: orange !important;
+    font-size: medium;
+    font-weight: 600;
+}
 
+.a:focus{
+    color: orange !important;
+    font-size: medium;
+    font-weight: 600;
 }
