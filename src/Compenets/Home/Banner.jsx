@@ -15,7 +15,7 @@ function Banner() {
 
     const imageStyle = {
         width: "100%",
-        maxHeight: "360px"
+        maxHeight: "440px"
     };
 
     return (

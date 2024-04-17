@@ -24,22 +24,15 @@ import Banner from './Banner'
 const Home = () => {
   return (
     <div class="banner pt-4">
-        {/* <div class="container">
-          <div className="bannier relative">
-            <img src={ad1} className='w-100' height={420} alt="" />
-            <div className="text-center fs-2 text-orange absolute z-5">
-              <h1 className='fw-bold fs-2 py-4'>La Boite à Outils des Vendeurs !</h1>
-              <p className='text-white'>Obtenez un site ecommerce à partir de 25 000 FCFA /mois et<br/> un outil de gestion performant.</p>
-            </div>
+      <section id="section1">
+          <div className="container-fluid">
+            <Banner />
           </div>
-        </div> */}
-          <Banner />
-        <section>
         <div class="container-fluid big-padding pt-5 category">
         <div class="container-xl">
-            <div class="row section-title text-center mt-5">
-              <h4 class="text-center fs-5 text-primary fw-bolder">CATEGORY</h4>
-              <h2>Shop by Category</h2>
+            <div class="row section-title text-center py-5">
+              <h4 class="text-center fs-5 text-success fw-bolder">CATEGORY</h4>
+              <h2 className='fw-bold text-dark'>Shop by Category</h2>
             </div>
             <div class="row mt-4">
 
@@ -70,13 +63,11 @@ const Home = () => {
             </div>
         </div>
       </div>
-      </section>
-     <section className=''>
-     <div className="container">
+      <div className="container">
         <Carousell />
       </div>
-     </section>
-      <section>
+      </section>
+      <section id="section2">
         <div class="container-fluid big-padding bg-light category mt-5">
         <div class="container-xl">
           <div class="row pt-5">
@@ -132,7 +123,7 @@ const Home = () => {
         </div>
       </div>
       </section>
-      <section>
+      <section id="section3">
       <div class="container-fluid big-padding category mt-5">
           <div class="container-xl pt-5">
             <div class="row">
