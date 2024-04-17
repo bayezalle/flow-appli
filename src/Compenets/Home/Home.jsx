@@ -25,9 +25,9 @@ const Home = () => {
   return (
     <div class="banner pt-4">
       <section id="section1">
-          <div className="container-fluid">
-            <Banner />
-          </div>
+        <div className="container">
+        <Banner />
+        </div>
         <div class="container-fluid big-padding pt-5 category">
         <div class="container-xl">
             <div class="row section-title text-center py-5">
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container-fluid">
         <Carousell />
       </div>
       </section>

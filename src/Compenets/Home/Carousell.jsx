@@ -48,7 +48,8 @@ function Carousell() {
         ]
       };
   return (
-    <div className="slider-container py-5">
+    <div className="container">
+		<div className="slider-container py-5">
 		<div className="fw-bolder text-center py-5">
 			<h4 className="text-success fw-bold">OUR SHOP</h4>
 			<h2 className="text-dark fw-bold">Popular Products</h2>
@@ -276,11 +277,12 @@ function Carousell() {
 						<p class="item-price text-success fw-bold">$369.00</p>
 						<a href="#" class="btn btn-outline-success rounded">Add</a>
 					</div>
-								</div>						
-							</div>
+			</div>						
+		</div>
         </div>
       </Slider>
     </div>
+	</div>
   );
 }
 

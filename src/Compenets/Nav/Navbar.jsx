@@ -16,8 +16,8 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <form className="d-flex px-5" role="search">
-              <input className="form-control flow-input p-2 border border-0 rounded-pill me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <form className="d-flex" role="search">
+              <input className="form-control flow-input p-2 border border-0 rounded-pill" type="search" placeholder="Search" aria-label="Search"/>
             </form>
             <ul className="navbar-nav mb-2">
               <li className="nav-item">
