@@ -1,0 +1,15 @@
+.a-flow{
+    font-weight: 600;
+    font-size: 20px;
+    color: dark;
+}
+
+.a-flow:hover{
+    color: orange !important;
+}
+
+.a-flow:focus{
+    color: orange !important;
+    font-size: 25px;
+    font-weight: 600;
+}

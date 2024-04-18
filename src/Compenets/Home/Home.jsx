@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div class="banner pt-4">
       <section id="section1">
-        <div className="container">
+        <div className="container-fluid">
         <Banner />
         </div>
         <div class="container-fluid big-padding pt-5 category">
