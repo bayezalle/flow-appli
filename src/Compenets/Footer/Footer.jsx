@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <div className='bg-dark py-5'>
       <div className="container">
+        <a class="navbar-brand" href="#">
+            <img src={easylogo} class="img-fluid logo mb-4" alt="" />
+        </a>
         <div className="row text-white">
             <div className="col-md-4">
-                <a class="navbar-brand" href="#">
-                    <img src={easylogo} class="img-fluid logo mb-3" alt="" />
-                </a>
                 <h4 className='fw-bold'>Contactez-nous</h4>
                 <p>WhatsApp<br/>
                     +221 78 826 77 00

@@ -26,7 +26,7 @@ const Home = () => {
     <div class="banner pt-4">
       <section id="section1">
         <div className="container-fluid">
-        <Banner />
+          <Banner />
         </div>
         <div class="container-fluid big-padding pt-5 category">
         <div class="container-xl">
@@ -102,14 +102,12 @@ const Home = () => {
                   <p class="fs-8">Fusce viverra convallis commodo. Aenean iaculis urna ac urna bibendum pharetra. Pellentesque habitant</p>
                 </div>
               </div>
-
-
             </div>
             <div class="col-md-8 align-self-center">
               <div class="row">
                 <div class="col-xl-4 d-none d-lg-block pe-0 align-self-center sticky">
                   <div class="card-abs shadow-md bg-white">
-                    <h1 class="fw-bolder fs-2 text-primary">10+ Years</h1>
+                    <h1 class="fw-bolder fs-2 text-success">10+ Years</h1>
                     <p>We are Growing and Selling <br/> Organic Foods</p>
                   </div>
                 </div>

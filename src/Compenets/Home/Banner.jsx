@@ -28,7 +28,7 @@ function Banner() {
     return (
         <div className="container">
             <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 mb-2">
                <div className="card shadow p-4">
                 <h4 className='fw-bold text-start py-3'>Liens utiles</h4>
                 <ul className="navbar-nav">
@@ -65,22 +65,22 @@ function Banner() {
                 </ul>
                </div>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-8 mb-2">
                 <div className="slider-container">
                     <Slider {...settings}>
                         <div>
-                            <img src={ad1} height={500} style={imageStyle} alt="" />
+                            <img src={ad1} height={400} style={imageStyle} alt="" />
                         </div>
                         <div>
-                            <img src={ad3} style={imageStyle} alt="" />
+                            <img src={ad3} height={400} style={imageStyle} alt="" />
                         </div>
                         <div>
-                            <img src={ad2} height={500} style={imageStyle} alt="" />
+                            <img src={ad2} height={400} style={imageStyle} alt="" />
                         </div>
                     </Slider>
                 </div>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mb-2">
             <div className="card text-center shadow p-4">
                 {/* <h4 className='fw-bold py-3 text-start'>Liens utiles</h4> */}
                 <ul className="navbar-nav">
