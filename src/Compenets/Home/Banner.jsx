@@ -29,34 +29,39 @@ function Banner() {
         <div className="container">
             <div className="row">
             <div className="col-md-3">
-               <div className="card shadow p-3">
-                <h4 className='fw-bold py-3 text-start'>Liens utiles</h4>
+               <div className="card shadow p-4">
+                <h4 className='fw-bold text-start py-3'>Liens utiles</h4>
                 <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
+                    {/* <li className="nav-item">
+                        <a className="nav-link a-flow fw-bold text-dark" href="">La solution 
                             <IoIosArrowDropdownCircle className="ms-5"/>
                         </a>
-                    </li> 
+                    </li>  */}
                     <li className="nav-link">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="ms-5"/>
+                        <a className="nav-link a-flow fw-bold text-dark" href="">La solution 
+                            {/* <IoIosArrowDropdownCircle className="ms-5"/> */}
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">Les fonctionnalites 
-                            <IoIosArrowDropdownCircle className="ms-5"/>
+                        <a className="nav-link a-flow fw-bold text-dark" href="">Les fonctionnalites 
+                            {/* <IoIosArrowDropdownCircle className="ms-5"/> */}
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="ms-5"/>
+                        <a className="nav-link a-flow fw-bold text-dark" href="">Nos tarifs 
+                            {/* <IoIosArrowDropdownCircle className="ms-5"/> */}
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="ms-5"/>
+                        <a className="nav-link a-flow fw-bold text-dark" href="">Presentation 
+                            {/* <IoIosArrowDropdownCircle className="ms-5"/> */}
                         </a>
-                    </li>                   
+                    </li>  
+                    <li className="nav-item">
+                        <a className="nav-link a-flow fw-bold text-dark" href="">Contactez-nous
+                            {/* <IoIosArrowDropdownCircle className="ms-5"/> */}
+                        </a>
+                    </li>                  
                 </ul>
                </div>
             </div>
