@@ -5,6 +5,11 @@ import ad1 from '../../images/banner1.jpg'
 import ad2 from '../../images/banner2.jpeg'
 import ad3 from '../../images/legg.jpg'
 import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { BsFacebook } from "react-icons/bs";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { BsLinkedin } from "react-icons/bs";
+import { IoLogoTiktok } from "react-icons/io5";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 function Banner() {
     const settings = {
@@ -17,39 +22,39 @@ function Banner() {
 
     const imageStyle = {
         width: "100%",
-        maxHeight: "400px"
+        maxHeight: "330px"
     };
 
     return (
         <div className="container">
             <div className="row">
-            <div className="col-md-2">
+            <div className="col-md-3">
                <div className="card shadow p-3">
                 <h4 className='fw-bold py-3 text-start'>Liens utiles</h4>
-                <ul className="navbar-nav ">
+                <ul className="navbar-nav">
                     <li className="nav-item">
                         <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                            <IoIosArrowDropdownCircle className="ms-5"/>
                         </a>
                     </li> 
-                    <li className="nav-item">
+                    <li className="nav-link">
                         <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                            <IoIosArrowDropdownCircle className="ms-5"/>
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link a-flow" href="">Les fonctionnalites 
+                            <IoIosArrowDropdownCircle className="ms-5"/>
                         </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                            <IoIosArrowDropdownCircle className="ms-5"/>
                         </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                            <IoIosArrowDropdownCircle className="ms-5"/>
                         </a>
                     </li>                   
                 </ul>
@@ -70,33 +75,33 @@ function Banner() {
                     </Slider>
                 </div>
             </div>
-            <div className="col-md-2">
-            <div className="card shadow p-3">
-                <h4 className='fw-bold py-3 text-start'>Liens utiles</h4>
-                <ul className="navbar-nav ">
+            <div className="col-md-1">
+            <div className="card text-center shadow p-4">
+                {/* <h4 className='fw-bold py-3 text-start'>Liens utiles</h4> */}
+                <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                        <a className="nav-link a-flow" href=""> 
+                            <BsFacebook className="text-primary fs-1"/>
                         </a>
                     </li> 
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                        <a className="nav-link a-flow" href="">
+                            <BiLogoInstagramAlt className="text-danger fs-1"/>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                        <a className="nav-link a-flow" href="">
+                            <BsLinkedin className="text-primary fs-1"/>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                        <a className="nav-link a-flow" href="">
+                        <IoLogoTiktok className="text-dark fs-1"/>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link a-flow" href="">La solution 
-                            <IoIosArrowDropdownCircle className="mx-3"/>
+                        <a className="nav-link a-flow" href="">
+                            <FaWhatsappSquare className="text-success fs-1"/>
                         </a>
                     </li>                   
                 </ul>
